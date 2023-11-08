@@ -106,14 +106,14 @@ out:
   return ret;
 }
 
-// GST_PLUGIN_DEFINE (GST_VERSION_MAJOR,
-//     GST_VERSION_MINOR,
-//     inference,
-//     "Infer pre-trained model on incomming image frames on a variety of architectures and different backends",
-//     plugin_init, VERSION, "LGPL", PACKAGE_NAME, GST_PACKAGE_ORIGIN)
-
 GST_PLUGIN_DEFINE (GST_VERSION_MAJOR,
     GST_VERSION_MINOR,
-    "foobar",
+    inference,
     "Infer pre-trained model on incomming image frames on a variety of architectures and different backends",
-    plugin_init, VERSION, "LGPL", PACKAGE_NAME, GST_PACKAGE_ORIGIN)    
+    plugin_init, VERSION, "LGPL", PACKAGE_NAME, GST_PACKAGE_ORIGIN)
+
+// GST_PLUGIN_DEFINE (GST_VERSION_MAJOR,
+//     GST_VERSION_MINOR,
+//     "foobar",
+//     "Infer pre-trained model on incomming image frames on a variety of architectures and different backends",
+//     plugin_init, VERSION, "LGPL", PACKAGE_NAME, GST_PACKAGE_ORIGIN)    
